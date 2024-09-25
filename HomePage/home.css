@@ -25,6 +25,8 @@
 /* home page */
 .Home-Header {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 24px;
 }
 .Home-Paragraph {
     text-align: center;
