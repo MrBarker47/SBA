@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar li {
+    margin: 20px;
+
+    list-style-type: none;
+}
+
+/* home page */
+.Home-Header {
+    text-align: center;
+}
+.Home-Paragraph {
+    text-align: center;
+}
+
+
+
+
+ /* images */
+ img {
+    width: 200px;
+    margin-left: 130px;
+    margin-top: 20px;
+ }
+
+.rotate img{
+    transition: 1s ease;
+    }
+    
+    .rotate img:hover{
+    -webkit-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+    transform: rotateZ(-10deg);
+    transition: 1s ease-in-out;
+    }
+
+    /* second row of photos */
+    .grow img{
+        transition: 1s ease;
+        }
+        
+        .grow img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
+/* footer */
+footer {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+ }
+
+.footer {
+    margin-top: 50px;
+    height: 50px;
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.navbar li {
+    margin: 20px;
+    list-style-type: none;
+ 
+}
+
+/* About Page */
+.About-Header {
+    text-align: center;
+}
+.About-Paragraph {
+    margin: 50px;
+}
+
+.lakers {
+    margin-left: 20px;
+}
+
+
+
+/* footer */
+footer {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+
+ 
+}
+
+.footer {
+    margin-top: 190px;
+    height: 50px;
+}

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.navbar li {
+    margin: 20px;
+    list-style-type: none;
+ 
+}
+
+
+
+/* Contact Page */
+form {
+    border: 4px solid rgb(149, 132, 132);
+    background-color: rgb(155, 104, 226);
+    margin: 20px 420px;
+    justify-self: center;
+    color: white;
+}
+
+label {
+    display: flex;
+    padding: 2px;
+  
+   
+}
+
+textarea {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+.Contact-Paragraph {
+    text-align: left;
+}
+
+button {
+ width: 200px;
+ margin: 20px;
+}
+
+
+/* footer */
+footer {
+    display: flex;
+     position: sticky; 
+     justify-content: center; 
+     margin-top: 220px;
+}
+
