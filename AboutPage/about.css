@@ -19,6 +19,7 @@
 /* About Page */
 .About-Header {
     text-align: center;
+    color: purple;
 }
 .About-Paragraph {
     margin: 50px;
@@ -77,6 +78,8 @@ table {
     font-weight: bold;
   }
   
+
+
 
 /* footer */
 footer {

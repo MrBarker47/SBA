@@ -32,10 +32,11 @@
     text-align: center;
 }
 
+#home {
+    color: purple;
+}
 
-
-
- /* images */
+/* images */
  img {
     width: 200px;
     margin-left: 130px;
